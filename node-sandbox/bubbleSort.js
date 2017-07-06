@@ -1,8 +1,7 @@
-function bubbleSort(numbers){
+function bubbleSort(array){
   var swap;
   var x;
   var y;
-  var array = numbers;
 
   for (x = 0; x < array.length; x++) { 
     for (y = 0; y < array.length; y++) {
@@ -15,5 +14,5 @@ function bubbleSort(numbers){
   }
   console.log(array)
 }
-bubbleSort([5, 0, 1, 3, 4, 2, 7, 10, 3, 1, 5]);
+bubbleSort(["d", "b", "a", "c"]);
 module.exports = bubbleSort
